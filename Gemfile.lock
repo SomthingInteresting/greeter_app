@@ -76,11 +76,15 @@ PLATFORMS
 
 DEPENDENCIES
   capybara (~> 3.37.1)
+  nokogiri (< 3.3)
   rspec
   selenium-webdriver
   sinatra
   sinatra-contrib
   webrick
+
+RUBY VERSION
+   ruby 3.0.0p0
 
 BUNDLED WITH
    2.4.10
